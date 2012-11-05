@@ -1,0 +1,30 @@
+/*======= index.html =======*/
+#page1 .col-1{
+	width:100%;
+	margin-right:20px
+}
+#page1 .col-2{width:285px}
+/*======= index-1.html =======*/
+#page2 .col-1{width:620px; margin-right:20px}
+#page2 .col-2{width:285px}
+/*======= index-2.html =======*/
+#page3 .col-1{width:620px; margin-right:20px}
+#page3 .col-2{width:285px}
+#page3 .block-1{width:260px; margin-right:63px}
+#page3 .block-2{width:255px}
+#page3 .line_ver{background-position:289px top}
+/*======= index-3.html =======*/
+#page4 .col-1{width:620px; margin-right:20px}
+#page4 .col-2{width:285px}
+/*======= index-4.html =======*/
+#page5 .col-1{width:620px; margin-right:20px}
+#page5 .col-2{width:285px}
+/*======= index-5.html =======*/
+#page6 .col-1{width:620px; margin-right:20px}
+#page6 .col-2{width:285px}
+#page6 .block-1{width:260px; margin-right:63px}
+#page6 .block-2{width:255px}
+#page6 .line_ver{background-position:289px top}
+/*======= index-6.html =======*/
+#page7 .col-1{width:620px; margin-right:20px}
+#page7 .col-2{width:285px}

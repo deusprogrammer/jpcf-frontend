@@ -1,0 +1,409 @@
+/* =================== Getting the new tags to behave START ====================== */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video { display: block; }
+mark, rp, rt, ruby, summary, time { display: inline }
+/* ==================== Getting the new tags to behave END ======================= */
+/* ========================= Global properties START ============================= */
+body {
+	/*background:url(../images/body_bg_tail.jpg) left bottom repeat;*/
+	min-width: 980px;
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1em;
+	color: #000;
+}
+.header_tail{background:url(../images/header_bg_tail.jpg) left top repeat-x; min-width:980px}
+#page1 .banner_tail{background:url(../images/banner_bg_tail.jpg) left 198px repeat-x; min-width:980px}
+.banner_tail{background:url(../images/banner_bg_tail2.png) left 198px repeat-x;}
+html {
+	background: transparent;
+	min-width: 980px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	vertical-align: top;
+	font-size: 100%;
+}
+div {
+	border: 0 none;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: top;
+}
+a {
+	outline: none;
+	color: #90908c;
+}
+	a:hover {
+		text-decoration: none;
+	}
+	
+	
+h2{font-size:2em; color:#292823; line-height:1.2em; margin-bottom:17px}
+.box h2{margin-bottom:22px}
+.box h2.dark{
+	font-size:1.5em;
+	text-transform:uppercase;
+	color:#fff;
+	background:#292823;
+	padding:14px 8px 12px 19px;
+	margin:0;
+	position:relative;
+	text-align: center;
+}
+	h2.extra{margin-bottom:22px}
+	h2.extra1{margin-bottom:14px}
+	h2.extra2{margin-bottom:18px}
+	h2.extra3{margin-bottom:16px}
+h4{color:#1f1e1a; font-size:1.333em; line-height:18px; word-spacing:-1px; margin-bottom:15px}
+h5{color:#1f1e1a; font-size:1.167em; line-height:18px; margin-bottom:13px}
+h6{font-size:1.083em; color:#292823; line-height:18px}
+	h6 a{text-decoration:none; color:#292823}
+	h6 a:hover{text-decoration:underline}
+p{line-height:18px; font-size:1.167em; margin-bottom:18px}
+	p.extra{margin-bottom:16px}
+	p.extra1{margin-bottom:0}
+	p.extra2{margin-bottom:15px}
+	p.extra3{margin-bottom:13px}
+	
+img {
+	border:solid;
+	border:thin;
+	border-color:#000;
+	border-style: solid;
+	text-align: center;
+}
+img.fright{margin-left:26px}
+img.fleft{margin-right:27px}
+img.extra{margin-bottom:28px}
+div.extra{margin-bottom:58px}
+div.extra1{margin-bottom:0}
+div.extra2{margin-bottom:20px}
+div.extra3{margin-bottom:18px}
+div.extra4{margin-bottom:32px}
+div.extra5{margin-bottom:22px}
+div.extra6{
+	margin-bottom:10px
+}
+ul.extra{margin-bottom:22px}
+ul.extra1{margin-bottom:11px}
+ul.extra2{margin-bottom:8px}
+ul.extra3{margin-bottom:0}
+ul.extra4{margin-bottom:39px}
+a.extra{margin-bottom:12px}
+a.extra1{margin-bottom:16px}
+/* ========================= Global properties END =============================== */
+/* ========================= Global Structure START ============================== */
+#main {
+	width: 961px;
+	margin: 0 auto;
+	font-size: 0.75em;
+}
+.main_shadow{background:url(../images/main_shadow.png) left top repeat-y; padding:0 3px; margin:0 -3px; overflow:hidden}
+header {
+	position: relative;
+	height:198px;
+}
+#content {
+	background:url(../images/content_bg_tail.jpg) left top repeat-x;
+	
+}
+#page1 #content {background:none}
+footer {
+	min-height:108px;
+	overflow: hidden;
+}
+/* ========================= Global Structure END ================================ */
+/* ====================== Left & Right alignment START =========================== */
+.fleft {
+	float: left;
+}
+.fright {
+	float: right;
+}
+.col-1, .col-2, .col-3, .col-4 {
+	float: left;
+	overflow: hidden;
+}
+.block-1, .block-2, .block-3, .block-4 {
+	float: left;
+	overflow: hidden;
+}
+.aligncenter {
+	padding: 15px 0 0 0;
+	text-align: center;
+}
+.wrapper {
+	width: 100%;
+	overflow: hidden;
+}
+.clear {
+	clear: both;
+	font-size: 0%;
+	line-height: 0%;
+	height: 0;
+}
+/* ====================== Left & Right alignment END ============================= */
+/* ============================== header START =================================== */
+header h1{position:absolute; left:-13px; top:30px; height:73px; width:384px}
+	header h1 a{padding:0 0 0 113px; background:url(../images/logo.jpg) left top no-repeat; display:block; height:100%; color:#fff; text-decoration:none; font-size:4.583em}
+	header h1 a span, header h1 a b{display:none}
+	
+header nav{/*position:absolute; top:146px; left:0; */font-size:1.083em; text-transform:uppercase; overflow:hidden; height:32px; padding-top:5px; float:left; margin-top:146px}
+	header nav ul{margin-left:-1px; border-right:1px dotted #4d4c45; height:25px;}
+	header nav li{float:left; border-left:1px dotted #4d4c45; border-right:1px dotted #121210; height:25px}
+	header nav a{display:block; color:#fff; text-decoration:none; margin-top:-5px; position:relative; overflow:hidden}
+	header nav a span{display:block; cursor:pointer;}
+	header nav a span span{line-height:35px; padding:0 20px 2px 19px; }
+	
+	header nav a:hover{color:#9db83c}
+	header nav .active a{background:url(../images/menu_tail.gif) left top repeat-x;}
+	header nav .active a span{background:url(../images/menu_left.gif) left top no-repeat}
+	header nav .active a span span{background:url(../images/menu_right.gif) right top no-repeat}
+	
+.header_button{position:absolute; right:-3px; bottom:14px; font-size:1.083em}
+	.header_button a{background:url(../images/header_but_tail.jpg) left top repeat-x; display:inline-block; color:#fff; text-transform:uppercase; text-decoration:none}
+	.header_button a span{background:url(../images/header_but_left.jpg) left top no-repeat; cursor:pointer; display:block}
+	.header_button a span span{background:url(../images/header_but_right.jpg) right top no-repeat; line-height:42px; padding:0 44px 0 43px}
+.banner{padding:35px 20px 24px; background:url(../images/banner_bg.jpg) left top repeat-x}
+	.banner_indent{padding-top:4px; height:400px; background:url(../images/banner_indent_bg.png) left top repeat}
+		.banner .fright{width:281px}
+			.banner .fright li{height:100px; width:100%; overflow:hidden}
+			.banner .fright a{color:#fff; display:block; height:100%; background-position:left top; background-repeat:no-repeat}
+			.banner .fright a span{display:none}
+			.banner .b1 a{background-image:url(../images/b1.jpg)}
+			.banner .b2 a{background-image:url(../images/b2.jpg)}
+			.banner .b3 a{background-image:url(../images/b3.jpg)}
+			.banner .b4 a{background-image:url(../images/b4.jpg)}
+			
+			.banner .b1{background:#84a436}
+			.banner .b2{background:#95b13a}
+			.banner .b3{background:#a5bd3e}
+			.banner .b4{background:#c4d547}
+		.banner .fleft{
+	position:relative;
+	width:600px;
+	height:400px
+}
+			.bot_text{position:absolute; left:0; bottom:0; background:url(../images/bottom_text_bg.png) left top repeat-y; width:480px; color:#fff; font-size:4em; line-height:1.2em; padding:2px 140px 10px 20px; word-spacing:-1px}
+			.slide_buttons{position:absolute; bottom:23px; right:20px}
+					.slide_buttons li{float:left; margin-left:4px; width:22px; height:22px}
+						.slide_buttons li a{display:block; height:100%; background:url(../images/banner_slide_but1.png) left top no-repeat; cursor:pointer}
+						.slide_buttons li a:hover, .slide_buttons .active a{background-position:left -22px }
+/* =============================== header END ==================================== */
+/* ============================= content START =================================== */
+#page1 #content  #indent{padding-top:0}
+#page8 #content  #indent{padding:32px 20px 14px 16px}
+#content #indent {padding: 35px 20px 21px 16px;}
+.headline_lister{position:absolute; top:50%; right:10px; margin-top:-13px; height:26px; display:block}
+.headline_lister a{cursor:pointer; background:url(../images/headline_lister_tail.gif) left top repeat-x #2d2b26; float:left; -webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px; -webkit-box-shadow: #111 1px 1px 2px; -moz-box-shadow: #111 1px 1px 2px; box-shadow: #111 1px 1px 2px;  margin-left:6px; position:relative;}
+.headline_lister a span{display:block; height:100%; cursor:pointer; width:25px; height:26px}
+.headline_lister .lister1 span{background:url(../images/lister1.gif) center 10px no-repeat}
+.headline_lister .lister2 span{background:url(../images/lister2.gif) 11px 10px no-repeat}
+.headline_lister .lister3 span{background:url(../images/lister1.gif) center 10px no-repeat}
+.headline_lister .lister4 span{background:url(../images/lister2.gif) 11px 10px no-repeat}
+.list{}
+	.list li{border-bottom:1px dashed #f2f2f2; padding-bottom:20px; margin-bottom:17px; width:100%; overflow:hidden}
+	.list .last{margin-bottom:0; border:none; padding-bottom:0}
+	.list p{margin-bottom:0}
+.list1{padding-top:3px}
+	.list1 li{width:100%; overflow:hidden; border-bottom:1px dashed #f2f2f2; padding-bottom:18px; margin-bottom:19px}
+	.list1 .last{border:none; margin:0; padding:0}
+	.list1 h4{margin-bottom:3px}
+	.list1 time{float:left; display:block; width:58px; height:58px; padding-top:2px; background:url(../images/date_bg.gif) left top no-repeat; text-align:center; text-transform:uppercase; color:#fff; font-size:0.917em; font-weight:bold; margin:1px 7px 0 1px}
+	.list1 time span{display:block; line-height:1.2em; color:#292823; font-weight:bold; font-size:2.727em}
+	
+.inner{padding:15px 20px}
+.inner1{padding:15px 20px 5px}
+.inner2{padding:15px 20px 0}
+.list2{}
+	.list2 li {width:100%; overflow:hidden; border-bottom:1px dashed #f2f2f2; padding-bottom:17px; margin-bottom:18px}
+	#page6 .list2 li {margin-bottom:19px}
+	.list2 .last{margin-bottom:23px}
+	.player_links{color:#a5bd3e}
+	.player_links a{padding-left:25px; display:inline-block}
+	.listen{background:url(../images/listen_icon.gif) left center no-repeat; margin-right:8px}
+	.download{background:url(../images/download_icon.gif) left center no-repeat; margin-left:12px}
+	
+.list3{line-height:30px; font-size:1.167em}
+	.list3 li{background:url(../images/list3_marker.gif) left center no-repeat; padding-left:24px; overflow:hidden}
+	.list3 a{text-decoration:none; color:#90908c}
+	.list3 a:hover{text-decoration:underline}
+	
+.list4{}
+	.list4 p{margin:0}
+	.list4 dt{color:#1f1e1a; font-size:1.333em; line-height:18px; word-spacing:-1px; margin-bottom:15px}
+	.list4 dd{margin-bottom:16px; border-bottom:1px dashed #f2f2f2; padding-bottom:20px}
+	.list4 .last{margin-bottom:0; border:none; padding:0}
+	
+.lists{width:100%; overflow:hidden; margin-bottom:13px}
+.lists ul{margin-right:30px; float:left; width:270px}
+.lists ul.last{margin-right:0}
+.list5{}
+	.list5 li{margin-bottom:18px}
+	.list5 blockquote p{margin-bottom:0}
+	.list5 h6{text-align:right}
+	
+.line_ver{background:url(../images/line_ver.gif) left top repeat-y}
+.list6{margin-bottom:35px}
+	.list6 li{border-bottom:1px dashed #f2f2f2; padding-bottom:20px; margin-bottom:18px; width:100%; overflow:hidden}
+	.list6 h4{line-height:18px}
+	.list6 .last{margin-bottom:0; border:none; padding-bottom:0}
+	.list6 p{margin-bottom:19px}
+	
+.list7{}
+	.list7 li{width:100%; overflow:hidden; padding-top:3px; margin-bottom:23px}
+	.list7 .last{margin-bottom:0}
+	.list7 h4{margin-bottom:15px}
+	.list7 img{margin:4px 29px 0 0}
+	
+.contacts{overflow:hidden; width:230px; margin-bottom:0}
+.contacts span{float:right}
+.contacts2 span{margin-left:10px}
+/* ============================== content END ==================================== */
+/* ============================= boxes START ===================================== */
+.box_cols{width:100%; margin-bottom:20px}
+.box_cols .box{
+	float:left;
+	margin-right:10px;
+	width:298px;
+	border:none;
+	border-left:1px solid #f2f2f2;
+	border-right:1px solid #f2f2f2;
+	margin-bottom:0px;
+	background:url(../images/box_border.gif) left bottom repeat-x #fff;
+}
+.box_cols .box h2{
+	margin:0 -19px;
+	margin-bottom:5px;
+	border-top:1px solid #f2f2f2
+}
+.box_cols .last{
+	margin-right:0;
+	width: 600px;
+	float: right;
+}
+.box_cols .box .inner{padding-top:0}
+.box_cols .box .inner1{padding:0 19px 29px}
+.box {
+	border:1px solid #f2f2f2;
+	background:#fff;
+	margin-bottom:18px
+}
+	.box .inner {
+		padding: 26px 19px;
+	}
+	.box .inner2 {
+		padding: 26px 19px 21px;
+	}
+	.box .inner3 {
+		padding: 26px 19px 28px;
+	}
+	.box .inner4 {
+		padding: 26px 19px 15px;
+	}
+	.box .inner5 {
+		padding: 26px 19px 30px;
+	}
+/* ============================== boxes END ====================================== */
+/* =================== txt, links, lines, titles START =========================== */
+a.more{font-size:0.917em; color:#a5bd3e; line-height:18px; text-transform:uppercase}
+a.more2{font-size:1.167em; color:#fff; text-transform:uppercase; background:url(../images/more2_bg.gif) left top repeat-x #2d2b26; text-decoration:none; line-height:26px; display:inline-block; padding:0 10px; position:relative}
+a.more2{-webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; -webkit-box-shadow: #666 1px 1px 2px; -moz-box-shadow: #666 1px 1px 2px; box-shadow: #666 1px 1px 2px; }
+a.more2:hover{color:#9db83c}
+/* ==================== txt, links, lines, titles END ============================ */
+/* ============================= forms START ===================================== */
+#contact_form {width: 550px; overflow: hidden; padding-top:8px; margin-left:1px}
+#contact_form div{width:100%; overflow:hidden; margin-bottom:10px}
+#contact_form input, #contact_form textarea{
+	border:1px solid #d8d8d7;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#8c8c8c;
+	padding:4px;
+	float:left;
+	margin:0;
+	width:500px;
+	outline:none
+}
+#contact_form textarea{height:237px; overflow:auto}
+#contact_form .buttons{text-align:right; margin-bottom:0; padding:11px 0 9px}
+#contact_form .buttons a{margin-left:17px}
+#search_form{position:absolute; top:43px; right:-3px; width:237px; overflow:hidden; background:url(../images/search_input.jpg) left top no-repeat}
+#search_form input{float:left; margin:0; background:none; padding:0; font:14px Arial, Helvetica, sans-serif; color:#fff; border:none}
+#search_form input[type='text']{padding:13px 7px; width:180px}
+#search_form input[type='submit']{background:url(../images/search_button.gif) left top no-repeat #96b23b; width:43px; height:42px; cursor:pointer}
+#search_form input[type='submit']:hover{background-position:left -42px}
+/* ============================== forms END ====================================== */
+/* ============================= other START ===================================== */
+.pic-indent {
+	margin: 0 0 0 0;
+}
+/* ============================== other END ====================================== */
+/* ============================ footer START ===================================== */
+footer{background:url(../images/footer_bg_tail.jpg) left top repeat-x #000; color:#fff; font-size:0.917em}
+footer a{color:#fff}
+.footer_indent{padding:27px 10px 5px}
+footer nav{position:static; text-transform:uppercase; overflow:hidden; letter-spacing:2px; margin-bottom:38px}
+footer nav ul{text-align:center}
+footer nav li{display:inline; background:url(../images/footer_menu_separator.gif) right center no-repeat; padding-right:11px; margin-right:6px;}
+*+html footer nav li{margin-right:11px; padding-right:6px}
+footer nav .last{background:none; padding:0; margin:0}
+footer nav a{color:#54524d; text-decoration:none}
+footer nav a:hover{color:#fff}
+.copy{text-transform:uppercase; text-align:center; padding-left:20px}
+.copy a{ text-decoration:none}
+.copy a:hover{color:#88867e}
+.footer_link{padding-left:20px; text-align:center; color:#88867e}
+/* ============================= footer END ====================================== */
+.slider {
+	width:640px;
+}
+.items{
+	display:none;
+}
+.pagination {
+	position:absolute;
+	top:330px;
+	z-index:100;
+	left:0;
+	height:70px;
+	padding:25px 0 0 520px;
+	width:120px;
+	background:url(../images/pagination-bg.png) left top no-repeat;
+}
+.pagination li {
+	float:left;	
+	cursor:pointer;
+	padding:0;	
+	margin-right:2px;
+}
+.pagination li a {
+	display:block;
+	width:22px;
+	height:23px;
+	padding:0 !important;
+	font-size:0;
+	line-height:0;
+	margin-right:2px;
+	background:url(../images/pagination.png) -26px 0px no-repeat;
+}
+.pagination li.current a, .pagination li:hover a{
+	background:url(../images/pagination.png) 0px 0px no-repeat;
+}
+.banner1 {
+	position:absolute;
+	top:332px;
+	letter-spacing:-1px;
+	left:20px;
+	z-index:999;
+   font-family:"Book Antiqua";
+	font-size:48px;
+	line-height:1.2307em;
+	color:#ffffff;
+}
+.slide {
+	width:242px;
+}
