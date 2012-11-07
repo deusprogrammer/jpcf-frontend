@@ -25,10 +25,9 @@ function addImageToSlideShow(image) {
 
 function loadSlideShowImages() {
    console.log("In loadSlideShowImages()");
-   console.log("URL: " + jpcfUrl + "/jpcf/slideShowImage/listUrls");
    jQuery.ajaxSetup({async:false});
    jQuery.get(
-      jpcfUrl + "/jpcf/slideShowImage/listUrls",
+      jpcfUrl + "/jpcf/JS/listImageUrlsJs",
       "",
       function(data) {
          console.log("Call successful!");
@@ -46,7 +45,7 @@ function loadSlideShowImages() {
 function loadBannerTexts() {
    jQuery.ajaxSetup({async:false});
    jQuery.get(
-      jpcfUrl + "/jpcf/event/list",
+      jpcfUrl + "/jpcf/JS/listEventsJs",
       "",
       function(data) {
          console.log("Call successful!");
