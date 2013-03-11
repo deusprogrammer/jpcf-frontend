@@ -112,7 +112,7 @@ $(function(){
    loadPage(currentPage);
 
    if (events.length != 0) {
-      setBannerEvent(events[eventIndex]);
+      setBannerEvent(events[eventIndex].name);
    }
    
    setInterval(
@@ -129,7 +129,7 @@ $(function(){
          }
          
          if (events.length != 0) {
-            setBannerEvent(events[eventIndex]);
+            setBannerEvent(events[eventIndex].name);
          }
       },
       10000);

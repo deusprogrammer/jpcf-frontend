@@ -393,55 +393,17 @@ footer nav a:hover{color:#fff}
 .pagination li.current a, .pagination li:hover a{
 	background:url(../images/pagination.png) 0px 0px no-repeat;
 }
-
 .banner1 {
-    position:absolute;
-    top:332px;
-    left:20px;
-    z-index:990;
-    color:#ffffff;
+	position:absolute;
+	top:332px;
+	letter-spacing:-1px;
+	left:20px;
+	z-index:999;
+   font-family:"Book Antiqua";
+	font-size:48px;
+	line-height:1.2307em;
+	color:#ffffff;
 }
 .slide {
 	width:242px;
-}
-
-a#event-link, a#event-link:link, a#event-link:visited, a#event-link:active {
-    text-decoration: none;
-}
-
-#event-link:hover {
-    text-decoration: none;
-    color: yellow;
-}
-
-div.event-popup {
-    position: absolute;
-    top: 400px;
-    left: 20px;
-    z-index: 999;
-    border: 1px solid black;
-    background-color: white;
-    display: none;
-    width: 400px;
-    height: 200px;
-}
-
-div.event-name {
-    padding: 2px;
-    font-family:"Book Antiqua";
-    font-size: 20px;
-}
-
-div.event-description {
-    position: relative;
-    left: 20px;
-    font-family:"Book Antiqua";
-    font-size: 10px;
-}
-
-div.event-time {
-    position: relative;
-    left: 20px;
-    font-family:"Book Antiqua";
-    font-size: 10px;  
 }
