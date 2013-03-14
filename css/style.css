@@ -281,6 +281,16 @@ header nav{/*position:absolute; top:146px; left:0; */font-size:1.083em; text-tra
 	margin-bottom:5px;
 	border-top:1px solid #f2f2f2
 }
+.box_cols .left {
+    margin-right:0;
+    width: 49%;
+    float: left;
+}
+.box_cols .right {
+    margin-right:0;
+    width: 49%;
+    float: right;
+}
 .box_cols .last{
 	margin-right:0;
 	width: 600px;
@@ -405,11 +415,21 @@ footer nav a:hover{color:#fff}
 	width:242px;
 }
 
+a.blog-link, a.blog-link:link, a.blog-link:visited, a.blog-link:active {
+    text-decoration: none:
+    color: gray;
+}
+
+a.blog-link:hover {
+    text-decoration: none;
+    color:black;
+}
+
 a#event-link, a#event-link:link, a#event-link:visited, a#event-link:active {
     text-decoration: none;
 }
 
-#event-link:hover {
+a#event-link:hover {
     text-decoration: none;
     color: yellow;
 }
